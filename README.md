@@ -18,7 +18,7 @@
 <li><b>Csrf Vernavility Checker</li></b>
 <li><b>Dns-Lookup,Zone-Transfer,Reserve-IP-Lookup,Http-Headers,Subnet-Lookup</li></b>
 <li><b>WordPress Username Finder</li></b>
-<h3><b>📸Screenshot</b></h3>
+<h3><b>📸Screenshot : </b></h3>
 <br>
 <img src="https://raw.githubusercontent.com/Nabil-Official/N-WEB/main/20210603_202610.png">
 <br>
