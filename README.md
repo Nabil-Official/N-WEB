@@ -1,5 +1,5 @@
 # N-WEB
-<b>[+] ADVANCE WEB PENETRATION TOOL [+]</b>
+<b>ADVANCE WEB PENETRATION TESTING TOOL</b>
 <br>
 <br>
 <b><h1>Features 🎭</h1></b>
@@ -35,7 +35,7 @@
 <h2><i>[+] For Run :</i></h2>
 <h3><b>python2 n-web.py</b></h3>
 <br>
-<h2> It Provide Only For Legal Activities || If You Misuse It We Are Not Responsible For This</h2>
+<h2> It Provide Only For Legal Activities | If You Misuse It We Are Not Responsible For This</h2>
 <br>
 <h1><i>🔰 DEVELOPER :</h1></i>
 <in><li><a href="https://m.facebook.com/nabil.404"><i>Nabil-Rahman (3RR0R)</i></a></i></li>
