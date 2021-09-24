@@ -1,0 +1,420 @@
+
+Poc : Ghostcat Vulnerability Remote Code Execution
+Dork: python3 ajpshooter.py IP:ApachePort AjpPort /file/location read/eval
+Date: 05.05.2021
+
+Poc : ILDIS v2 Applications Multiple Vulnerabilities
+Dork: intitle:Signin | ILDIS JDIHN
+Date: 04.05.2021
+
+Poc : Technical Assistance explore IT Sql Injection Vulnerability
+Dork: intext:Technical Assistance explore IT
+Date: 03.05.2021
+
+Poc : Dulux - Html Injection Vulnerability
+Dork: inurl : dulux site:.
+Date: 28.04.2021
+
+Poc : Irandesign.ir CMS SQL Injection 
+Dork: intext:طراحی سایت توسط ایران دیزاین
+Date: 20.04.2021
+
+Poc : SoftNick India - SQL Injection vulnerability
+Dork: intext:Developed By SoftNick India
+Date: 20.04.2021
+
+Poc : VASYL STEFANYK UNIVERSITY | SQL Injection Vulnerability
+Dork: read.php?id=
+Date: 18.04.2021
+
+Poc : Greek Shopping Web Site SQL Injection Vulnerability
+Dork: productview.php?id=
+Date: 16.04.2021
+
+Poc : CITSmart ITSM 9.1.2.27 SQL Injection
+Dork: intext:citsmart.local
+Date: 15.04.2021
+
+Poc : CITSmart ITSM 9.1.2.22 LDAP Injection
+Dork: intext:citsmart.local
+Date: 15.04.2021
+
+Poc : USA Cansas City SQL Injection Vulnerability
+Dork: news.php?id=
+Date: 15.04.2021
+
+Poc : Smtmax SQL Injection Vulnerability
+Dork: category.php?id=
+Date: 15.04.2021
+
+Poc : Sanah Infosolutions - SQL Injection vulnerability
+Dork: intext:Designed by : Sanah Infosolutions
+Date: 15.04.2021
+
+Poc : Delhi Jain School SQL Injection Vulnerability
+Dork: gallery.php?id=
+Date: 13.04.2021
+
+Poc : Brazil Floriano Municipality Blind SQL Injection
+Dork: galeria.php?id=
+Date: 11.04.2021
+
+Poc : mmcct | SQL injection Vulnerability
+Dork: inurl:members.php?lang=en
+Date: 10.04.2021
+
+Poc : Custom CMS Okezone - Cross-Site Scripting Vulnerabilities
+Dork: site:*.okezone.com/rc.php?id=
+Date: 09.04.2021
+
+Poc : Web Design by Island Webservices (SQL) Injection
+Dork: intext:/Web design by Island Webservices
+Date: 04.04.2021
+
+Poc : indiawebsoft Admin Login ByPass
+Dork: intext:/designed and developed by indiawebsoft
+Date: 03.04.2021
+
+Poc : Realteo WordPress Plugin &lt;= 1.2.3 - Improper Access Control
+Dork: inurl:/wp-content/plugins/realteo/
+Date: 02.04.2021
+
+Poc : Realteo WordPress Plugin &lt;= 1.2.3 - Unauthenticated Reflected XSS
+Dork: inurl:/wp-content/plugins/realteo/
+Date: 02.04.2021
+
+Poc : Web Tasarım - www.bursaproje.com (XSS) Vulnerability
+Dork: intext:/Web Tasarım - www.bursaproje.com
+Date: 02.04.2021
+
+Poc :  Web Tasarım - www.bursaproje.com (SQL) Injection 
+Dork: intext:/Web Tasarım - www.bursaproje.com
+Date: 01.04.2021
+
+Poc : Goto WordPress Theme &lt;= 1.9 - Unauthenticated Reflected XSS
+Dork: inurl:/wp-content/themes/goto/
+Date: 01.04.2021
+
+Poc : Obra soft Sql Injection Vulnerability
+Dork: intext:Created by Obra soft
+Date: 27.03.2021
+
+Poc : Moodle Atto Editor Cross Site Scripting
+Dork: inurl:/lib/editor/atto/plugins/managefiles/ or calendar/view.php?view=month
+Date: 26.03.2021
+
+Poc : Moodle 3.10.3 Calendar Cross Site Scripting
+Dork: inurl:/lib/editor/atto/plugins/managefiles/ or calendar/view.php?view=month
+Date: 26.03.2021
+
+Poc : Copyrights Samad Elmakchi - Admin Login Bypass
+Dork: intext:Copyrights Samad Elmakchi
+Date: 23.03.2021
+
+Poc : Controlled Admin Access WordPress Plugin &lt;= 1.4.0 - Improper Access Control & Privilege Escalation
+Dork: inurl:/wp-content/plugins/controlled-admin-access/
+Date: 23.03.2021
+
+Poc : Team Inertia Technologies Sql Injection Vulnerability
+Dork: intext:Designed by Team Inertia Technologies
+Date: 22.03.2021
+
+Poc : IT NUCLEUS Sql Injection Vulnerability
+Dork: intext:Powered by IT NUCLEUS
+Date: 22.03.2021
+
+Poc : Team Inertia Technologies Xpath Injection Vulnerability
+Dork: intext:Designed by Team Inertia Technologies
+Date: 22.03.2021
+
+Poc : RedJasmin Sql injection vulnerability
+Dork: intext:Designed & Developed by Redjasmin.com
+Date: 22.03.2021
+
+Poc : Developed by Five design Vulnerability SQL Injection And Admin Default Pass
+Dork: intext:developed by Five design
+Date: 22.03.2021
+
+Poc : Dynamic Experts script SQL Injection Vulnerability
+Dork: intext:Powered By Dynamic Experts
+Date: 21.03.2021
+
+Poc : Turning Point script Sql Injection Vulnerability
+Dork: intext:Website designed by: Turning Point
+Date: 21.03.2021
+
+Poc : Developed By ACME Infosoft Sql Injection Vulnerability
+Dork: intext:Developed By ACME Infosoft
+Date: 21.03.2021
+
+Poc : GAP Infotech Sql Injection Vulnerability
+Dork: intext:Powered By: GAP Infotech
+Date: 21.03.2021
+
+Poc : WP Super Cache WordPress Plugin &lt;= 1.7.1 - Authenticated RCE / XSS -&gt; RCE
+Dork: inurl:/wp-content/plugins/wp-super-cache/
+Date: 19.03.2021
+
+Poc : Design By Developer Village Sql Injection Vulnerability
+Dork: intext:Design By - Developer Village
+Date: 18.03.2021
+
+Poc : OpenNetAdmin 8.5.14 &lt;= 18.1.1 - Remote Command Execution
+Dork: inurl:/ona/
+Date: 07.05.2021
+
+Poc : Ghostcat Vulnerability Remote Code Execution
+Dork: python3 ajpshooter.py IP:ApachePort AjpPort /file/location read/eval
+Date: 05.05.2021
+
+Poc : ILDIS v2 Applications Multiple Vulnerabilities
+Dork: intitle:Signin | ILDIS JDIHN
+Date: 04.05.2021
+
+Poc : Technical Assistance explore IT Sql Injection Vulnerability
+Dork: intext:Technical Assistance explore IT
+Date: 03.05.2021
+
+Poc : Dulux - Html Injection Vulnerability
+Dork: inurl : dulux site:.
+Date: 28.04.2021
+
+Poc : Irandesign.ir CMS SQL Injection 
+Dork: intext:طراحی سایت توسط ایران دیزاین
+Date: 20.04.2021
+
+Poc : SoftNick India - SQL Injection vulnerability
+Dork: intext:Developed By SoftNick India
+Date: 20.04.2021
+
+Poc : VASYL STEFANYK UNIVERSITY | SQL Injection Vulnerability
+Dork: read.php?id=
+Date: 18.04.2021
+
+Poc : Greek Shopping Web Site SQL Injection Vulnerability
+Dork: productview.php?id=
+Date: 16.04.2021
+
+Poc : CITSmart ITSM 9.1.2.27 SQL Injection
+Dork: intext:citsmart.local
+Date: 15.04.2021
+
+Poc : CITSmart ITSM 9.1.2.22 LDAP Injection
+Dork: intext:citsmart.local
+Date: 15.04.2021
+
+Poc : USA Cansas City SQL Injection Vulnerability
+Dork: news.php?id=
+Date: 15.04.2021
+
+Poc : Smtmax SQL Injection Vulnerability
+Dork: category.php?id=
+Date: 15.04.2021
+
+Poc : Sanah Infosolutions - SQL Injection vulnerability
+Dork: intext:Designed by : Sanah Infosolutions
+Date: 15.04.2021
+
+Poc : Delhi Jain School SQL Injection Vulnerability
+Dork: gallery.php?id=
+Date: 13.04.2021
+
+Poc : Brazil Floriano Municipality Blind SQL Injection
+Dork: galeria.php?id=
+Date: 11.04.2021
+
+Poc : mmcct | SQL injection Vulnerability
+Dork: inurl:members.php?lang=en
+Date: 10.04.2021
+
+Poc : Custom CMS Okezone - Cross-Site Scripting Vulnerabilities
+Dork: site:*.okezone.com/rc.php?id=
+Date: 09.04.2021
+
+Poc : Web Design by Island Webservices (SQL) Injection
+Dork: intext:/Web design by Island Webservices
+Date: 04.04.2021
+
+Poc : indiawebsoft Admin Login ByPass
+Dork: intext:/designed and developed by indiawebsoft
+Date: 03.04.2021
+
+Poc : Realteo WordPress Plugin &lt;= 1.2.3 - Improper Access Control
+Dork: inurl:/wp-content/plugins/realteo/
+Date: 02.04.2021
+
+Poc : Realteo WordPress Plugin &lt;= 1.2.3 - Unauthenticated Reflected XSS
+Dork: inurl:/wp-content/plugins/realteo/
+Date: 02.04.2021
+
+Poc : Web Tasarım - www.bursaproje.com (XSS) Vulnerability
+Dork: intext:/Web Tasarım - www.bursaproje.com
+Date: 02.04.2021
+
+Poc :  Web Tasarım - www.bursaproje.com (SQL) Injection 
+Dork: intext:/Web Tasarım - www.bursaproje.com
+Date: 01.04.2021
+
+Poc : Goto WordPress Theme &lt;= 1.9 - Unauthenticated Reflected XSS
+Dork: inurl:/wp-content/themes/goto/
+Date: 01.04.2021
+
+Poc : Obra soft Sql Injection Vulnerability
+Dork: intext:Created by Obra soft
+Date: 27.03.2021
+
+Poc : Moodle Atto Editor Cross Site Scripting
+Dork: inurl:/lib/editor/atto/plugins/managefiles/ or calendar/view.php?view=month
+Date: 26.03.2021
+
+Poc : Moodle 3.10.3 Calendar Cross Site Scripting
+Dork: inurl:/lib/editor/atto/plugins/managefiles/ or calendar/view.php?view=month
+Date: 26.03.2021
+
+Poc : Copyrights Samad Elmakchi - Admin Login Bypass
+Dork: intext:Copyrights Samad Elmakchi
+Date: 23.03.2021
+
+Poc : Controlled Admin Access WordPress Plugin &lt;= 1.4.0 - Improper Access Control & Privilege Escalation
+Dork: inurl:/wp-content/plugins/controlled-admin-access/
+Date: 23.03.2021
+
+Poc : Team Inertia Technologies Sql Injection Vulnerability
+Dork: intext:Designed by Team Inertia Technologies
+Date: 22.03.2021
+
+Poc : IT NUCLEUS Sql Injection Vulnerability
+Dork: intext:Powered by IT NUCLEUS
+Date: 22.03.2021
+
+Poc : Team Inertia Technologies Xpath Injection Vulnerability
+Dork: intext:Designed by Team Inertia Technologies
+Date: 22.03.2021
+
+Poc : RedJasmin Sql injection vulnerability
+Dork: intext:Designed & Developed by Redjasmin.com
+Date: 22.03.2021
+
+Poc : Developed by Five design Vulnerability SQL Injection And Admin Default Pass
+Dork: intext:developed by Five design
+Date: 22.03.2021
+
+Poc : Dynamic Experts script SQL Injection Vulnerability
+Dork: intext:Powered By Dynamic Experts
+Date: 21.03.2021
+
+Poc : Turning Point script Sql Injection Vulnerability
+Dork: intext:Website designed by: Turning Point
+Date: 21.03.2021
+
+Poc : Developed By ACME Infosoft Sql Injection Vulnerability
+Dork: intext:Developed By ACME Infosoft
+Date: 21.03.2021
+
+Poc : GAP Infotech Sql Injection Vulnerability
+Dork: intext:Powered By: GAP Infotech
+Date: 21.03.2021
+
+Poc : WP Super Cache WordPress Plugin &lt;= 1.7.1 - Authenticated RCE / XSS -&gt; RCE
+Dork: inurl:/wp-content/plugins/wp-super-cache/
+Date: 19.03.2021
+
+Poc : OpenNetAdmin 8.5.14 &lt;= 18.1.1 - Remote Command Execution
+Dork: inurl:/ona/
+Date: 07.05.2021
+
+Poc : Ghostcat Vulnerability Remote Code Execution
+Dork: python3 ajpshooter.py IP:ApachePort AjpPort /file/location read/eval
+Date: 05.05.2021
+
+Poc : ILDIS v2 Applications Multiple Vulnerabilities
+Dork: intitle:Signin | ILDIS JDIHN
+Date: 04.05.2021
+
+Poc : Technical Assistance explore IT Sql Injection Vulnerability
+Dork: intext:Technical Assistance explore IT
+Date: 03.05.2021
+
+Poc : Dulux - Html Injection Vulnerability
+Dork: inurl : dulux site:.
+Date: 28.04.2021
+
+Poc : Irandesign.ir CMS SQL Injection 
+Dork: intext:طراحی سایت توسط ایران دیزاین
+Date: 20.04.2021
+
+Poc : SoftNick India - SQL Injection vulnerability
+Dork: intext:Developed By SoftNick India
+Date: 20.04.2021
+
+Poc : VASYL STEFANYK UNIVERSITY | SQL Injection Vulnerability
+Dork: read.php?id=
+Date: 18.04.2021
+
+Poc : Greek Shopping Web Site SQL Injection Vulnerability
+Dork: productview.php?id=
+Date: 16.04.2021
+
+Poc : CITSmart ITSM 9.1.2.27 SQL Injection
+Dork: intext:citsmart.local
+Date: 15.04.2021
+
+Poc : CITSmart ITSM 9.1.2.22 LDAP Injection
+Dork: intext:citsmart.local
+Date: 15.04.2021
+
+Poc : USA Cansas City SQL Injection Vulnerability
+Dork: news.php?id=
+Date: 15.04.2021
+
+Poc : Smtmax SQL Injection Vulnerability
+Dork: category.php?id=
+Date: 15.04.2021
+
+Poc : Sanah Infosolutions - SQL Injection vulnerability
+Dork: intext:Designed by : Sanah Infosolutions
+Date: 15.04.2021
+
+Poc : Delhi Jain School SQL Injection Vulnerability
+Dork: gallery.php?id=
+Date: 13.04.2021
+
+Poc : Brazil Floriano Municipality Blind SQL Injection
+Dork: galeria.php?id=
+Date: 11.04.2021
+
+Poc : mmcct | SQL injection Vulnerability
+Dork: inurl:members.php?lang=en
+Date: 10.04.2021
+
+Poc : Custom CMS Okezone - Cross-Site Scripting Vulnerabilities
+Dork: site:*.okezone.com/rc.php?id=
+Date: 09.04.2021
+
+Poc : Web Design by Island Webservices (SQL) Injection
+Dork: intext:/Web design by Island Webservices
+Date: 04.04.2021
+
+Poc : indiawebsoft Admin Login ByPass
+Dork: intext:/designed and developed by indiawebsoft
+Date: 03.04.2021
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

