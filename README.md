@@ -26,7 +26,7 @@
 
 <h3><b>📸Screenshot : </b></h3>
 <br>
-<img src="https://raw.githubusercontent.com/Nabil-Official/N-WEB/main/20210603_202610.png">
+<img src="https://github.com/Nabil-Official/N-WEB/blob/main/n-weblast%20(2).png?raw=true">
 <br>
 <br>
 <h2><b>[+] INSTALLATION : </b></h2>
