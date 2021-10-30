@@ -2,7 +2,7 @@
 #!/usr/bin/python2
 # Author : Nabil-Rahman 
 # Team : DarkWeb T-D
-# You can't be a programmer by changing logo :)
+
 try:
   import os
   import sys
@@ -117,7 +117,7 @@ def intro():
     elif user_choise == "16":
          os.system('cd files && python2 user.py')
     elif user_choise == "17":
-         os.system('cd files && python2 wp-scan.py')
+         os.system('cd files && python3 wp-scan.py')
     elif user_choise == "18":
          os.system('cd files && python2 wordpress-brute.py')
     elif user_choise == "19":                  
