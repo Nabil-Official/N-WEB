@@ -3,11 +3,6 @@ import time
 import os
 import concurrent.futures
 import requests
-try:
-        from colorama import *
-except ImportError:
-        os.system("clear")
-        os.system("pip install colorama")
 import time
 ### LOGO
 logo = """ \033[1;94m
