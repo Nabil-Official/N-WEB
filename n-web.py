@@ -49,7 +49,7 @@ def logop(z):
         time.sleep(0.01)
 
 
-## Menu
+## Menu_
 def intro():
     os.system('clear')
     logop(logo)
@@ -168,7 +168,6 @@ def up_chker():
         print (red+'[+]''\033[1;35m UPDATE-STATUS : '+ green+'OK ')
         time.sleep(2)
         os.system('clear')
-#        time.sleep(0.1)
         intro()
 up_chker()
 
