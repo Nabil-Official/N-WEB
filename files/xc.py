@@ -22,7 +22,7 @@ Created By : \033[1;96mNabil-Rahman |\033[1;0m [V 1.2.2]
 """
 os.system("clear")
 print (logo)
-print(Style.BRIGHT)
+
 site = input('\033[1;31m>>\033[1;32m Enter Your Url : \033[1;36m')
 print()
 try:
