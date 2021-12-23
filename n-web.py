@@ -8,11 +8,11 @@ try:
   import sys
   import time
   import requests as nabil
-  import bs4 
   import json 
   import urllib2 
 except Exception as e:
   print ('[+] ERROR : '+str(e))
+  exit()
 
 # COLOR VALUES 
 
@@ -41,18 +41,13 @@ Created By : \033[1;96mNabil-Rahman |\033[1;0m [V 1.2.2]
 \033[1;32m------------------------------------------   
 """
 os.system('clear')
-
-def logop(z):
-    for word in z + '\n':
-        sys.stdout.write(word)
-        sys.stdout.flush()
-        time.sleep(0.01)
+print(logo)
 
 
 ## Menu_
 def intro():
     os.system('clear')
-    logop(logo)
+    print(logo)
    # os.system('xdg-open https://facebook.com/groups/368007073698875')
     print
     print blue+"[\033[1;31m01\033[1;94m] \033[1;35m>>\033[1;32m Admin-Finder"
@@ -75,8 +70,11 @@ def intro():
     print blue+"[\033[1;31m18\033[1;94m] \033[1;35m>>\033[1;32m Wp BruteForce"
     print blue+"[\033[1;31m19\033[1;94m] \033[1;35m>>\033[1;32m Sqli Scanner"
     print blue+"[\033[1;31m20\033[1;94m] \033[1;35m>>\033[1;32m Directory BruteForce"
-    print blue+"[\033[1;31m21\033[1;94m] \033[1;35m>>\033[1;32m Help?"
-    print blue+"[\033[1;31m22\033[1;94m] \033[1;35m>>\033[1;32m About"
+    print blue+"[\033[1;31m21\033[1;94m] \033[1;35m>>\033[1;32m Lfi Scanner"
+    print blue+"[\033[1;31m22\033[1;94m] \033[1;35m>>\033[1;32m Xss Scanner"
+    print blue+"[\033[1;31m23\033[1;94m] \033[1;35m>>\033[1;32m Dork Scanner"
+    print blue+"[\033[1;31m24\033[1;94m] \033[1;35m>>\033[1;32m Help?"
+    print blue+"[\033[1;31m25\033[1;94m] \033[1;35m>>\033[1;32m About"
     print blue+"[\033[1;31m00\033[1;94m] \033[1;35m>>\033[1;32m Exit"
     
     # choise inputb
@@ -99,7 +97,7 @@ def intro():
     elif user_choise == "7":
          os.system('cd files && python2 hashcrack.py')
     elif user_choise == "8":
-         os.system('cd files && python hashcrack-word.py')  
+         os.system('cd files && python3 hashcrack-word.py')  
     elif user_choise == "9":
          os.system('cd files && python2 whois.py')
     elif user_choise == "10":
@@ -124,11 +122,20 @@ def intro():
          os.system('cd files && python2 sqli.py')
     elif user_choise == "20": 
          os.system('cd files && python3 dir-brute.py')
-    elif user_choise == "21":
-         os.system('xdg-open https://m.facebook.com/nabil.404')
+    elif user_choise == "21": 
+         os.system('cd files && python3 lfi-scanner.py')
+
+    elif user_choise == "22": 
+         os.system('cd files && python3 xss-scanner.py')
+
+    elif user_choise == "23":
+         os.system('cd files && python3 dork-scanner.py')
+
+    elif user_choise == "24":
+         os.system('cd files && python2 about.py')
          
-    elif user_choise == "22":
-         os.system('cd .. && python2 about.py')
+    elif user_choise == "25":
+         os.system('xdg-open "https://facebook.com/nabil.404"')
          
     elif user_choise == "00":
          exit()
@@ -166,8 +173,10 @@ def up_chker():
         time.sleep(0.2)
         
         print (red+'[+]''\033[1;35m UPDATE-STATUS : '+ green+'OK ')
-        time.sleep(2)
+        time.sleep(1)
         os.system('clear')
         intro()
 up_chker()
+
+
 
