@@ -23,6 +23,10 @@
 <li><b>Wp BruteForce </li></b>
 <li><b>Sqli Scanner</li></b>
 <li><b>Directory BruteForce </li></b>
+<li><b>Lfi Scanner</li></b>
+<li><b>Xss Scanner </li></b>
+<li><b>Dork Scanner </li></b>
+
 
 <h3><b>📸Screenshot : </b></h3>
 <br>
