@@ -9,7 +9,7 @@ try:
   import time
   import requests as nabil
   import json 
-  import urllib2 
+ 
 except Exception as e:
   print ('[+] ERROR : '+str(e))
   exit()
@@ -177,6 +177,7 @@ def up_chker():
         os.system('clear')
         intro()
 up_chker()
+
 
 
 
